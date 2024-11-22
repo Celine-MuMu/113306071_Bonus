@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2F4F4F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+}
+
+/* Form Container */
+.form-container {
+  width: 60%;
+  margin: 0 auto; /* 居中 */
+  background: #8FBC8F;
+  padding: 2% 5% 3%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Centered Title */
+h1 {
+  text-align: center;
+  margin-bottom: 3%;
+  color: #333;
+}
+
+/* Input Group */
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.input-group label {
+  width: 120px;
+  font-size: 1rem; /* 使用相對單位 */
+  color: black;
+  text-align: right;
+  margin-right: 10px; /* 減少間距 */
+}
+
+.input-group input,
+.input-group textarea {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Special Width for Input 1 */
+#input1 {
+  width: 80%;
+}
+
+/* Image Group */
+.image-group {
+  display: flex;
+  align-items: center; /* 垂直對齊 */
+  justify-content: flex-start; /* 左對齊 */
+  margin-top: 5%;
+}
+
+.image-group label {
+  margin-right: 2%;
+}
+
+.image-group img {
+  width: 80%; /* 控制圖片大小 */
+  height: auto;
+  border-radius: 5px; /* 圓角 */
+}
